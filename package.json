@@ -8,7 +8,7 @@
     "lint": "eslint ./; exit 0",
     "start": "forever server/server.js"
   },
-  "author": "",
+ "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/cheneym/mealdotnext/issues"

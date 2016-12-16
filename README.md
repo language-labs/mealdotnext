@@ -1,12 +1,7 @@
-# Project Name
+# Meal.Next
 
-> Pithy project description
+> An easy to use mobile app to browse recipe nutrition and create shareable shopping lists
 
-## Team
-
-  - __Product Owner__: teamMember
-  - __Scrum Master__: teamMember
-  - __Development Team Members__: teamMember, teamMember
 
 ## Table of Contents
 
@@ -20,8 +15,8 @@
 
 ## Usage
 
-> Some usage instructions
-> Api documentation in separate document
+See [GETTINGSTARTED.md](GETTINGSTARTED.md) to get started
+See [api_documentation.md](api_documentation.md) for documentation on the api
 
 ## Requirements
 
@@ -29,9 +24,6 @@
 - Exponent
 - XCode
 - npm
-- at least 3 GHz octa-core CPU and a Geforce 6000 XL
-
-## Development
 
 ### Installing Dependencies
 
@@ -39,8 +31,6 @@ From within the root directory:
 
 1. npm install in root directory
 2. npm install in mobile directory
-
-### Tasks
 
 ### Roadmap
 
