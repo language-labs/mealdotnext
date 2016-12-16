@@ -1,7 +1,7 @@
 # Meal.Next
 
 <p align="center">
-	<img src="/screenshots/meal-labs-comp-720.png?raw=true"/>
+  <img src="/screenshots/meal-labs-comp_720.png?raw=true"/>
 </p>
 
 > An easy to use mobile app to browse recipe nutrition and create shareable shopping lists
