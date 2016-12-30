@@ -41,6 +41,7 @@ class App extends React.Component {
   }
 
   updateShoppingList () {
+    console.log('props from inside main', this.props);
     const newList = compileList(this.state.mealList);
     const oldList = this.state.shoppingList.slice();
 

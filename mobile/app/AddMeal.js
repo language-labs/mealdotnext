@@ -17,9 +17,10 @@ import HeadBuffer from './HeadBuffer';
 const width = Dimensions.get('window').width;
 const height = Dimensions.get('window').height;
 
-const userUrl = 'https://meal-labs.herokuapp.com/api/user/';
-const recipeUrl = 'https://meal-labs.herokuapp.com/api/recipe/';
-const mealUrl = 'https://meal-labs.herokuapp.com/api/meal/';
+const userUrl = 'https://mealdotnextxlabs.herokuapp.com/api/user/';
+const recipeUrl = 'https://mealdotnextxlabs.herokuapp.com/api/recipe/';
+const mealUrl = 'https://mealdotnextxlabs.herokuapp.com/api/meal/';
+
 
 const styles = StyleSheet.create({
   container: {

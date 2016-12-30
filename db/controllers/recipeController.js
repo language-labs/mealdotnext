@@ -1,5 +1,5 @@
 const Recipe = require('../models/recipeModel.js');
-const keys = require('../../server/config/config.js');
+const keys = require('../../server/config/config-auth.js');
 const rp = require('request-promise');
 
 const APIURL = 'https://api.edamam.com/search?q=';
