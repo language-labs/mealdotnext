@@ -13,8 +13,8 @@ import PriceBreakdown from './PriceBreakdown';
 import LogoDisplay from './LogoDisplay';
 import HeadBuffer from './HeadBuffer';
 
-const userUrl = 'https://meal-labs.herokuapp.com/api/user/';
-const mealUrl = 'https://meal-labs.herokuapp.com/api/meal/';
+const userUrl = 'https://mealdotnextxlabs.herokuapp.com/api/user/';
+const mealUrl = 'https://mealdotnextxlabs.herokuapp.com/api/meal/';
 
 const width = Dimensions.get('window').width;
 const height = Dimensions.get('window').height;

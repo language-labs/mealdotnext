@@ -11,7 +11,7 @@ import HeadBuffer from './HeadBuffer';
 import ButtonHeader from './ButtonHeader';
 import PieChart from './PieChart';
 
-const priceUrl = 'https://meal-labs.herokuapp.com/api/price/';
+const priceUrl = 'https://mealdotnextxlabs.herokuapp.com/api/price/';
 const width = Dimensions.get('window').width;
 const height = Dimensions.get('window').height;
 
