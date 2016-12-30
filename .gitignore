@@ -29,6 +29,7 @@ node_modules/
 bower_components/
 
 # API Keys
-#server/config/config.js
+server/config/config-auth.js
+server/config/config-db.js
 
 *.DS_Store

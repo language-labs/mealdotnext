@@ -1,8 +1,6 @@
 const mongoose = require('mongoose');
+const mongoURI = process.env.NODE_ENV === 'production' ? process.env.MONGOURI : require('./config-db.js').mongoURI;
 
-const mongoUser = 'admin';
-const mongoPassword = 'hackreactor';
-const mongoURI = `mongodb://${mongoUser}:${mongoPassword}@ds037597.mlab.com:37597/meal-labs`;
 mongoose.connect(mongoURI);
 
 const db = mongoose.connection;

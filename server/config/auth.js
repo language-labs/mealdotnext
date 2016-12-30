@@ -1,5 +1,5 @@
 const jwt = require('jsonwebtoken');
-const secret = require('./config.js').secret;
+const secret = process.env.NODE_ENV === 'production' ? process.env.SECRET : require('./config-auth.js').secret;
 
 module.exports = (req, res, next) => {
   console.log('req.headers', req.headers);
