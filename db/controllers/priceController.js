@@ -1,4 +1,4 @@
-const key = require('../../server/config/config.js').X_Mashape_Key;
+const key = require('../../server/config/config-auth.js').X_Mashape_Key;
 const rp = require('request-promise');
 const cheerio = require('cheerio');
 
